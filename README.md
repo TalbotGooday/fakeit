@@ -1,5 +1,8 @@
-This is a fork of an abandoned project that I liked. I do not promise stable work or further support of the project
+Warning!
 ========
+
+This is a fork of an abandoned project that I liked. I do not promise stable work or further support of the project.
+Better use [kotlin-faker](https://github.com/serpro69/kotlin-faker) or something
 
 ![alt text](https://github.com/moove-it/fakeit/blob/master/banner.png "Fakeit Github banner")
 
