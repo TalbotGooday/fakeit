@@ -1,4 +1,4 @@
-Fakeit
+This is a fork of an abandoned project that I liked. I do not promise stable work or further support of the project
 ========
 
 ![alt text](https://github.com/moove-it/fakeit/blob/master/banner.png "Fakeit Github banner")
@@ -9,16 +9,9 @@ The library was originally created for Android projects, but it can be used in a
 
 Download
 --------
+[![Release](https://jitpack.io/v/TalbotGooday/Fakeit.svg)](https://jitpack.io/#TalbotGooday/Fakeit)
 
-You can use either Maven:
-```xml
-<dependency>
-  <groupId>com.github.moove-it</groupId>
-  <artifactId>fakeit</artifactId>
-  <version>v0.5</version>
-</dependency>
-```
-or Gradle:
+Gradle:
 ```groovy
 // In your project's build.gradle
 allprojects {
@@ -29,26 +22,23 @@ allprojects {
 
 //In your module's build.gradle
 dependencies {
-  implementation 'com.github.moove-it:fakeit:v0.5'
+   implementation 'com.github.TalbotGooday:Fakeit:x.x.x'
 }
 ```
 
 Basic Usage
 --------
-
-Fakeit can be used in Java and Kotlin applications - no Android context needed!
-
 Run the sample app to check all the available models and generate some random values.
 
 First you need to initialize Fakeit:
 
 ```java
 // Default locale is en for english data.
-Fakeit.init()
+Fakeit.init(context)
 
 // You can also pass a Locale or a String locale to change the language.
 // See supported languages below.
-Fakeit.init(locale)
+Fakeit.init(context, locale)
 ```
 
 Then, you need to import the module into each file where it will be used with:
