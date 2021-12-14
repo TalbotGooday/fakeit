@@ -29,7 +29,7 @@ allprojects {
 
 //In your module's build.gradle
 dependencies {
-  compile 'com.github.moove-it:fakeit:v0.5'
+  implementation 'com.github.moove-it:fakeit:v0.5'
 }
 ```
 
